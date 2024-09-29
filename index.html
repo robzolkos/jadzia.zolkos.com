@@ -5,10 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
   <title>Jadzia Zolkos</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <style>
+    .great-vibes-regular {
+      font-family: "Great Vibes", cursive;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    body {
+      background-color: #fff6f6;
+    }
+  </style>
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+<body class="max-w-xl w-full mx-auto py-12">
+  <div class="text-center mb-8">
+    <h2 class="">
+      In Loving Memory
+    </h2>
+    <h1 class="great-vibes-regular text-5xl mt-3 mb-3">
+      Jadwiga Zolkos
+    </h1>
+    <div class="flex justify-center">
+      <div class="bg-white p-3 shadow">
+        <img src="jadzia.jpg" width="150" class="block mx-auto" />
+      </div>
+    </div>
+    <h3 class="text-sm mt-2">
+      13 Sep 1951 - 2 Sep 2024
+    </h3>
+  </div>
+
+  <div class="border p-2 border rounded-lg mb-3 bg-white">
+    <video controls class="w-full" poster="slideshow.png">
+      <source src="https://johnmcdonald.s3.ap-southeast-2.amazonaws.com/jadwiga-zolkos-slideshow.mp4" type="video/mp4">
+    </video>
+    <figcaption class="text-center text-sm">Memories</figcaption>
+  </div>
+
+
+  <div class="border p-2 border rounded-lg bg-white">
+    <video controls class="w-full" poster="service.png">
+      <source src="https://johnmcdonald.s3.ap-southeast-2.amazonaws.com/jadwiga-zolkos-service.mp4" type="video/mp4">
+    </video>
+    <figcaption class="text-center text-sm">Funeral Service</figcaption>
+  </div>
+
 </body>
 </html>
